@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resultInput.TheoryResultInput">
+   <children>
+      <Label fx:id="lblTotalClass" layoutX="118.0" layoutY="34.0" text="Total Class: 30">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTTMarks" layoutX="257.0" layoutY="34.0" text="Term Test Marks: 40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPartAMarks" layoutX="454.0" layoutY="34.0" text="Part A Marks: 40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPartBMarks" layoutX="625.0" layoutY="34.0" text="Part B Marks: 40">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="402.0" layoutY="112.0" mnemonicParsing="false" onAction="#update" text="Button" />
+   </children>
+</AnchorPane>
